@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+}
+
+header {
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #0047ab;
+}
+
+.header-left span.beta {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.flag {
+  width: 30px;
+  margin-right: 10px;
+}
+
+main {
+  padding: 10px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.service {
+  background: #e9f0fb;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 70px;
+  position: relative;
+}
+
+.service img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.tag {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.ejobs-banner {
+  background: #dce7f5;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.featured {
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.verify-box {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.verify-btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.nav {
+  text-align: center;
+  font-size: 14px;
+}
+
+.qr {
+  font-size: 24px;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: -20px;
+}
